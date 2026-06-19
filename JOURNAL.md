@@ -29,7 +29,7 @@ flowchart LR
     BAT("Battery")
     MOD_DEV["Whatever the module has"]
     WHL["Motors for Wheels"]
-    SOUND["Speakers"]
+    %% SOUND["Speakers"]
     UNDGLOW["LEDs for Underglow :3"]
     CAM[Camera for RC]
     RC[Receiver for RC]
@@ -41,7 +41,7 @@ flowchart LR
     
     BASE <-->|"Power and data? Using pogo pins i think"| MOD
     BASE <--> WHL
-    BASE --> SOUND
+    %% BASE --> SOUND
     BASE --> UNDGLOW
     BASE <--> CAM
     BASE <--> RC
@@ -52,3 +52,9 @@ flowchart LR
 
 
 I should make an Orph with a space suit or smth and an orph in a rocket and one dancing in the stars because stardance
+# Day 2
+
+Leo was here, he's kinda the firmware guy so i asked questions and explained to me a bunch of stuff about motors, how to organize yourself in projects like this, battery stuff (charging in this case)
+So, we are now making a more detailed organization of the project; it's in excalidraw
+Since this is my first time diving into hardware i know very little which makes everything way harder cause i have to learn everything so i'm unsure if i'll finish in time this project.
+

@@ -45,3 +45,5 @@ fp-info-cache
 .obsidian
 .DS_Store
 
+/.vscode/settings.json
+/.clangd
